@@ -32,7 +32,9 @@ You will probably need to comment out line 57 of `create_lambda.sh`, and then un
 
 ## Calling the script
 Navigate to this folder and call it with `./create_lambda.sh "your_lambda_name" "your_modules_folder_name"`
+
 The modules folder name is optional.
+
 This script will go to its folder's parent folder and create a directory called "your_lambda_name" that contains the scaffolding.
 
 ## Building your lambda function
